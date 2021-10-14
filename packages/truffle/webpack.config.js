@@ -143,7 +143,6 @@ module.exports = {
 
   resolve: {
     alias: {
-      "ws": path.join(__dirname, "./nil.js"),
       "bn.js": path.join(
         __dirname,
         "../..",
@@ -245,6 +244,18 @@ module.exports = {
             "templates/"
           ),
           to: "templates"
+        },
+        {
+          from: path.join(
+            __dirname,
+            "../..",
+            "node_modules",
+            "@truffle/dashboard",
+            "dist",
+            "lib",
+            "dashboard-frontend"
+          ),
+          to: "dashboard-frontend"
         }
       ]
     }),

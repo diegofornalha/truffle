@@ -27,6 +27,7 @@
     "@truffle/compile-solidity": "^6.0.5",
     "@truffle/config": "^1.3.14",
     "@truffle/contract": "^4.4.2",
+    "@truffle/dashboard": "^0.1.0",
     "@truffle/debug-utils": "^6.0.3",
     "@truffle/debugger": "^9.2.8",
     "@truffle/decoder": "^5.1.4",
